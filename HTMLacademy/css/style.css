@@ -1,0 +1,368 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Trebuchet MS, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+}
+.container {
+	width: 1020px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+.main-header {
+	padding-top:35px;
+	padding-bottom:80px;
+	background-color:#6451d5;
+}
+.top-header::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+.logo {
+  float: left;
+}
+.logo img {
+  display: block;
+}
+.main-menu {
+  float: right;
+  width: 670px;
+  margin-top: 25px;
+}
+.main-menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.main-menu li {
+	display:inline-block;
+	margin-right:50px;
+	vertical-align: top;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: bold;
+}
+.main-menu li:last-child{
+	margin-right:0px;
+}
+.main-menu a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.main-menu a:hover {
+  text-decoration: underline;
+}
+.main-menu a:active {
+  text-decoration: none;
+  opacity: 0.3;
+}
+.promo  {
+	margin-top: 93px;
+	width:450px;
+	position: relative;
+	z-index: 10;
+}
+.promo::after{
+  content: "";
+  position: absolute;
+  width: 653px;
+  height: 451px;
+  z-index:-1;
+  top:-20px;
+  left:380px;
+  background-image: url("../img/bg-promo.png");
+  background-repeat: no-repeat;
+}
+.promo-title {
+  margin-bottom: 35px;
+  font-size: 45px;
+  line-height: 50px;
+  color:#ffffff;
+  font-weight: bold;
+}
+.promo p {
+	width:305px;
+	font-family: Tahoma, sans-serif;
+	color:#ffffff;
+	font-size: 18px;
+	line-height: 30px;
+	opacity: 0.6;
+}
+.botton {
+	display: inline-block;
+	padding: 0px 80px;
+	font-size: 20px;
+	line-height: 70px;
+	font-weight:bold;
+	vertical-align: top;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: #999999;
+	color: #ffffff;
+	cursor: pointer;
+	outline: none;
+	border: none;
+}
+.promo .botton {
+	margin-top:32px;
+}
+.btn-blue {
+  background: #382d78;
+}
+.btn-blue:hover {
+  background: #32286c;
+  color: #ffffff;
+}
+.btn-blue:active {
+  background: #32286c;
+  color: #ffffff;
+  opacity: 0.3;
+}
+.features {
+	background-color:#efefef;
+	padding-top:50px;
+	padding-bottom:45px;
+}
+.features .container::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+.features-item {
+	float:left;
+	width:320px;
+	margin-right:30px;
+}
+.features-item:last-child {
+	margin-right:0px;
+}
+.features-icon {
+	margin-left:120px;
+	margin-top:0px;
+	width:100px;
+	height:70px;
+	margin-bottom:20px;
+}
+.schedule {
+	background-image:url("../img/schedule-icon.png"); 
+	background-repeat:no-repeat;
+	margin-left:132px;
+}
+.practice {
+	background-image: url("../img/practice-icon.png"); 
+	background-repeat:no-repeat;
+	margin-left:123px;
+}
+.work {
+	background-image: url("../img/work-icon.png"); 
+	background-repeat:no-repeat;
+	margin-left:124px;
+}
+.features-title {
+	font-size: 22px;
+	line-height: 24px;
+	text-align:center;
+	margin-bottom:26px;
+}
+.features-item p {
+	font-size: 18px;
+	line-height: 22px;
+	text-align:center;
+	font-family: Tahoma, sans-serif;
+	color:#555555;
+	margin-top:1px;
+	margin-bottom:2px;
+}
+.education{
+	padding-top:13px;
+	padding-bottom:72px;
+	background-color:#ffffff;
+}
+.education-title {
+	font-size: 45px;
+	line-height: 50px;
+	margin-bottom:60px;	
+}
+.education table {
+	border:solid #a7a7a7 2px;
+	border-collapse: collapse;
+}
+.education tr:first-child {
+	background:#efefef;
+}
+.education td{
+	border:solid #a7a7a7 2px;
+}
+.no-strong {
+	font-family: Tahoma, sans-serif;
+	line-height:30px;
+	font-size: 18px;
+	color:#404040;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:30px;
+	padding-right:44px;
+}
+.strong {
+	font-family: Trebuchet MS, sans-serif;
+	line-height: 24px;
+	font-size: 22px;
+	color: #000000;
+	white-space: nowrap;
+	vertical-align:top;
+	padding-left:30px;
+	padding-right:45px;
+	padding-top:22px;
+}
+.contacts {
+	background-color:#efefef;
+	padding-top:50px;
+	padding-bottom:60px;
+}
+.contacts-title {
+	font-size: 45px;
+	line-height: 50px;
+	margin-bottom:60px;
+	margin-top:0px;
+}
+.contacts .container {
+	display: table;
+	clear: both;
+	content: "";
+	width: 1020px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+.contacts-form {
+	width:630px;
+	float: left;
+	padding-right:10px;
+}
+.contacts-form table{
+	margin-top:0px;
+}
+.contacts-instruction {
+	float: right;
+	width: 320px;
+	margin-top:0px;
+}
+.contacts-form td {
+	padding-bottom: 17px;
+}
+.contacts-form .title {
+	padding-right: 10px;
+	text-align:right;
+	font-family: Trebuchet MS, sans-serif;
+	line-height: 20px;
+	font-size: 18px;
+}
+.contacts-instruction h3 {
+	font-family: Trebuchet MS, sans-serif;
+	line-height: 30px;
+	font-size: 22px;
+	margin-top:0px;
+}
+.contacts-form .field {
+	width: 510px;
+}
+
+.contacts-form input[type="text"],
+.contacts-form textarea {
+	width: 100%;
+	padding: 12px 26px;
+	box-sizing:border-box;
+  	font-family: Tahoma, sans-serif;
+	line-height:30px;
+	font-size: 18px;
+	color:#404040;
+	border:solid #a7a7a7 2px; 
+}
+.contacts-form textarea {
+	height:100px;
+	resize: none;
+}
+.contacts-form input[type="radio"] {
+	margin:20px 25px 19px 18px;
+}
+.field label{
+	margin-right:45px;
+	font-family: Tahoma, sans-serif;
+	line-height:30px;
+	font-size: 18px;
+	color:#404040;
+}
+.field .botton {
+	width:100%;
+	margin-bottom:0px;
+}
+.contacts-instruction p{
+	font-family: Tahoma, sans-serif;
+	line-height:24px;
+	font-size: 18px;
+	color:#555555;
+	margin-bottom:29px;
+}
+.contacts-instruction .contacts-attention{
+	margin-top:40px;
+	margin-bottom:0px;
+}
+.contacts-attention strong{
+	color:black;
+}
+.main-footer {
+	padding-top:65px;
+	padding-bottom:80px;
+	background-color:#2a2546;
+	color: #ffffff;
+	font-size: 18px;
+	line-height: 24px;
+	font-family: Tahoma, sans-serif;
+}
+.footer-top {
+	display: table;
+	clear: both;
+	content: "";
+}
+.footer-address {
+	float: left;
+	width: 300px;
+	margin-right: 40px;
+}
+.footer-address p {
+	margin: 0;
+	margin-top: 78px;
+}
+.footer-address .logo {
+	float: none;
+}
+.footer-menu {
+	width:180px;
+	float:left;
+	margin-top:25px;
+}
+.footer-menu:last-child {
+	width:130px;
+	margin-left:6px;
+}
+.footer-menu h3 {
+	margin-top:0px;
+	margin-bottom:36px;
+}
+.footer-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.footer-menu li {
+	margin-bottom: 26px;
+}
+.footer-menu a {
+	color: #bcb3f2;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 24px;
+}
